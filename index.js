@@ -22,6 +22,7 @@ let companies = `[
         "isTrusted": true
     }
 ]`;
+
 console.log(companies); 
 console.log(JSON.parse(companies));
 
