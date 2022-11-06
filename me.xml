@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<me>
+    <!-- root -->
+    <name>Daniel</name>
+    <age>23</age>
+    <hobbies>
+        <hobby>Piano</hobby>
+        <hobby>Books</hobby>
+        <hobby>Gym</hobby>
+    </hobbies>
+    <car>
+        <make>BMW</make>
+        <model>E46</model>
+        <year>2000</year>
+    </car>
+</me>

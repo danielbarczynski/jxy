@@ -1,4 +1,4 @@
-const fs = require("fs");
+import { readFileSync } from "fs";
 
 const companies = `[
     {
@@ -52,8 +52,8 @@ console.log(JSON.parse(companies));
 console.log(companies2);
 console.log(JSON.stringify(companies2));
 
-const employees = fs.readFileSync('./employees.json');
-const  me = fs.readFileSync('./me.json');
+const employees = readFileSync('./employees.json');
+const me = readFileSync('./me.json');
 
 console.log(employees.toString());
 console.log(JSON.parse(employees));
