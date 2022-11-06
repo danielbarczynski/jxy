@@ -1,0 +1,11 @@
+{
+    "name": "Daniel",
+    "age": 23,
+    "hobbies": [ "piano", "books", "gym"],
+
+    "car":{
+        "make": "BMW",
+        "model": "e46",
+        "year": 2000
+    }
+}

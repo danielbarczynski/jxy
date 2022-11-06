@@ -25,5 +25,24 @@
             "graduated": false,
             "children": null
         }
+    ],
+    "employers": [
+        {
+            "name": "Draco",
+            "age": 60,
+            "graduated": true,
+            "children": [
+                "Michael"
+            ]
+        },
+        {
+            "name": "Katherine",
+            "age": 50,
+            "graduated": true,
+            "children": [
+                "Arya",
+                "Bran"
+            ]
+        }
     ]
 }
