@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: rgb(55, 55, 55); color: aliceblue;">
     <div id="hello">Hello World</div>
     <!-- <script type="module" src="index.js"></script> -->
     <script>
         const serializer = new XMLSerializer();
         const serialize = serializer.serializeToString(hello);
         const serialize2 = serializer.serializeToString(document);
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString('<p>hey</p>', 'text/xml');
+        const xmlDoc2 = parser.parseFromString(document, 'text/xml');
         
         console.log(serialize);
         console.log("\nWhole document:");
         console.log(serialize2);
+        console.log(xmlDoc);
+        console.log(xmlDoc2);
     </script>
 </body>
 </html>
