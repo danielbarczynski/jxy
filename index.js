@@ -59,3 +59,6 @@ console.log(JSON.parse(meJSON));
 
 const employeesXML = fs.readFileSync('./employees.xml');
 console.log(employeesXML.toString());
+
+const employeesYAML = fs.readFileSync('./employees.yaml');
+console.log(employeesYAML.toString());
