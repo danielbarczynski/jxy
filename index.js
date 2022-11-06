@@ -1,6 +1,4 @@
-console.log('hello world! 🌍');
-
-let companies = `[
+const companies = `[
     {
         "name": "Corpo",
         "numberOfEmployes": 10000,
@@ -23,7 +21,7 @@ let companies = `[
     }
 ]`;
 
-let companies2 = [
+const companies2 = [
     {
         "name": "Corpo",
         "numberOfEmployes": 10000,
@@ -46,7 +44,7 @@ let companies2 = [
     }
 ];
 
-console.log(companies); 
+console.log(companies);
 console.log(JSON.parse(companies));
 
 console.log(companies2);

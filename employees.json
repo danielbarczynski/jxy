@@ -1,0 +1,29 @@
+{
+    "employees": [
+        {
+            "name": "Mark",
+            "age": 30,
+            "graduated": true,
+            "children": [
+                "Emmy",
+                "Danny"
+            ]
+        },
+        {
+            "name": "Josie",
+            "age": 40,
+            "graduated": true,
+            "children": [
+                "Lily",
+                "Henry",
+                "Alex"
+            ]
+        },
+        {
+            "name": "Adam",
+            "age": 20,
+            "graduated": false,
+            "children": null
+        }
+    ]
+}
