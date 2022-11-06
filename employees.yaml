@@ -1,0 +1,16 @@
+employees:
+  - employee:
+    name: Mark
+    age: 30
+    graduated: true
+    children:
+      - Emmy
+      - Danny
+  - employee:
+    name: Josie
+    age: 40
+    graduated: true
+    children:
+      - Lily
+      - Henry
+      - Alex

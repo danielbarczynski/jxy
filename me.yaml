@@ -1,0 +1,41 @@
+#key-value pairs
+name: Daniel
+age: 23
+graduated: false
+employed: false
+
+multiplesLines: |
+  first line
+  second line
+  third line
+
+#accesing variable with $
+oneLine: >
+  first line
+  still first line
+  $SOME_ENVIRONMENT_VARIABLE 
+placeholder: {{ Some.Placeholder }}
+
+#another file
+---
+
+#object
+futureMe:
+  name: Daniel
+  age: 25
+  graduated: true
+  employed: true
+  hobbies: #list
+    - piano
+    - books
+    - gym
+  cars: #object list
+    - car:
+      make: bmw
+      model: e46
+      year: 2000
+    - car:
+      make: vw
+      model: golf 4
+      year: 2003
+  languages: [c#, javascript] #another list
