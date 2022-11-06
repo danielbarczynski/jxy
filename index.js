@@ -1,3 +1,4 @@
+var xmlserializer = require('XMLSerializer'); 
 import { readFileSync } from "fs";
 
 const companies = `[
@@ -52,10 +53,15 @@ console.log(JSON.parse(companies));
 console.log(companies2);
 console.log(JSON.stringify(companies2));
 
-const employees = readFileSync('./employees.json');
-const me = readFileSync('./me.json');
+const employeesJSON = readFileSync('./employees.json');
+const meJSON = readFileSync('./me.json');
 
-console.log(employees.toString());
-console.log(JSON.parse(employees));
-console.log(JSON.parse(me));
+console.log(employeesJSON.toString());
+console.log(JSON.parse(employeesJSON));
+console.log(JSON.parse(meJSON));
 
+const employeesXML = readFileSync('./employees.xml');
+console.log(employeesXML.toString());
+
+const serialize = serializeToString(employeesXML);
+console.log(serialize);
