@@ -1,3 +1,5 @@
+const yaml = require('js-yaml');
+
 const companies = `[
     {
         "name": "Corpo",
@@ -62,3 +64,6 @@ console.log(employeesXML.toString());
 
 const employeesYAML = fs.readFileSync('./employees.yaml');
 console.log(employeesYAML.toString());
+
+const employeesYAML2 = yaml.load(fs.readFileSync('./employees.yaml'));
+console.log(employeesYAML2);
